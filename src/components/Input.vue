@@ -1,5 +1,5 @@
 <template>
-  <input :type="type" class="input" :placeholder="placeholder" />
+  <input :type="type" :placeholder="placeholder" />
 </template>
 
 <script>
@@ -12,11 +12,11 @@ export default {
 </script>
 
 <style lang="scss">
-.input {
+input {
   border: unset;
   outline: unset;
-  font-family: Rubik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
-    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Rubik, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 18px;
   padding: 8px 10px 8px 10px;
   font-weight: 300;
