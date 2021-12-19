@@ -444,15 +444,16 @@ export default {
     }
 
     &-mailing {
-      background: $black;
+      background-image: url("../assets/panel-left-side-rectangle.svg");
+      // background-size: contain;
+      background-repeat: no-repeat;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       justify-content: center;
-      height: 100%;
-      width: 280px;
+      // height: 100%;
+      width: 265px;
       gap: 10px;
-      border-radius: 0 0 0 15px;
       padding: 10px;
 
       input {
@@ -461,14 +462,14 @@ export default {
     }
 
     &-auth {
-      background: $black;
+      // background-image: url("../assets/panel-right-side-rectangle.svg");
+      background-repeat: no-repeat;
       display: flex;
       flex-direction: column;
       align-items: center;
-      height: 100%;
-      width: 280px;
+      // height: 100%;
+      width: 265px;
       gap: 10px;
-      border-radius: 0 0 15px 0;
       padding: 10px 10px 10px 90px;
 
       img {
